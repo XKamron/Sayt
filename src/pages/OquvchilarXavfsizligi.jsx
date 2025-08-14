@@ -22,7 +22,7 @@ const SafetyItem = ({ image, text, isWrong = false }) => {
       className="flex flex-col items-center p-4 md:p-6 bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 h-full border border-gray-100"
       aria-label={text}
     >
-      <div className="relative mb-4 w-24 h-24 md:w-32 md:h-32 flex items-center justify-center">
+       <div className="relative mb-4 w-24 h-24 md:w-32 md:h-32 flex items-center justify-center">
         <AnimatePresence>
           {!isImageLoaded && (
             <motion.div 
@@ -32,7 +32,7 @@ const SafetyItem = ({ image, text, isWrong = false }) => {
             />
           )}
         </AnimatePresence>
-        <img 
+       <img 
           src={image} 
           alt="" 
           className={`w-full h-full object-contain transition-opacity duration-300 ${isImageLoaded ? 'opacity-100' : 'opacity-0'}`}
@@ -46,7 +46,7 @@ const SafetyItem = ({ image, text, isWrong = false }) => {
           >
             ✕
           </div>
-        )}
+      )}
       </div>
       <p className="text-center text-sm md:text-base font-medium text-gray-800 leading-relaxed">
         {text}
@@ -77,6 +77,7 @@ const SafetySection = ({ title, items, id }) => (
   </section>
 );
 
+
 const OquvchilarXavfsizligi = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [setActiveSection] = useState('fire-occurrence');
@@ -86,7 +87,7 @@ const OquvchilarXavfsizligi = () => {
       setIsScrolled(window.scrollY > 100);
       
       // Update active section based on scroll position
-      const sections = document.querySelectorAll('section[id]');
+       const sections = document.querySelectorAll('section[id]');
       sections.forEach(section => {
         const sectionTop = section.offsetTop - 100;
         const sectionHeight = section.offsetHeight;
@@ -96,19 +97,12 @@ const OquvchilarXavfsizligi = () => {
       });
     };
 
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+        handleScroll();
 
-  const scrollToSection = (sectionId) => {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      window.scrollTo({
-        top: element.offsetTop - 80,
-        behavior: 'smooth'
-      });
-    }
-  };
+       window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [setIsScrolled, setActiveSection]);
+
 
   const fireOccurrence = [
     { image: pj1, text: "Yonayotgan elektr asboblarini suv bilan o'chirma.", isWrong: true },
@@ -154,7 +148,7 @@ const OquvchilarXavfsizligi = () => {
   ];
 
   return (
-    <div className="min-h-screen flex flex-col bg-gray-50 font-['Montserrat', 'sans-serif']">
+<div className="min-h-screen flex flex-col bg-gray-50 font-['Montserrat', 'sans-serif']">
       <Header />
       <Navbar />
       
@@ -268,9 +262,7 @@ const OquvchilarXavfsizligi = () => {
       {/* Scroll to top button */}
       <button
         onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-        className={`fixed bottom-6 right-6 bg-red-500 text-white p-3 rounded-full shadow-lg transition-all duration-300 transform hover:scale-110 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-50 ${
-          isScrolled ? 'opacity-100' : 'opacity-0 pointer-events-none'
-        }`}
+        className={`fixed bottom-6 right-6 bg-red-500 text-white p-3 rounded-full shadow-lg transition-all duration-300 transform hover:scale-110 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-50 ${isScrolled ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
         aria-label="Yuqoriga qaytish"
       >
         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -278,7 +270,7 @@ const OquvchilarXavfsizligi = () => {
         </svg>
       </button>
       
-      <style jsx>{`
+     <style jsx>{`
         .hide-scrollbar::-webkit-scrollbar {
           display: none;
         }
