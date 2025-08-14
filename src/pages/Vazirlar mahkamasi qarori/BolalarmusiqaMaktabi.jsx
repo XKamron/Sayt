@@ -1,9 +1,8 @@
-import React, { useState } from 'react';
 import Header from '../../components/Header';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
 
-const Bolalarmusiqa_maktabi = () => {
+const BolalarmusiqaMaktabi = () => {
 
 
   return (
@@ -699,4 +698,4 @@ Tugatilgan bolalar musiqa va san’at maktabining muassisi o‘quvchilarni ota-o
   );
 };
 
-export default Bolalarmusiqa_maktabi;
+export default BolalarmusiqaMaktabi;

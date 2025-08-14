@@ -1,13 +1,8 @@
-import { useState } from 'react';
 import Header from '../../components/Header';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
 
-const Bolalar_musiqa = () => {
-  const [setActiveTab] = useState(1);
-
-
-
+const BolalarMusiqa = () => {
   return (
     <div className="flex flex-col min-h-screen bg-white font-['Montserrat', 'sans-serif']">
       <Header />
@@ -121,4 +116,4 @@ PQ-910-son</p>
   );
 };
 
-export default Bolalar_musiqa;
+export default BolalarMusiqa;

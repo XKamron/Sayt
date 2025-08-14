@@ -96,7 +96,7 @@ const GalleryImage = ({ src, alt }) => {
   );
 };
 
-const Mehnat_muxofazasi = () => {
+const MehnatMuxofazasi = () => {
   return (
     <div className="min-h-screen flex flex-col bg-gray-50 font-['Montserrat', 'sans-serif']">
       <Header />
@@ -153,4 +153,4 @@ const Mehnat_muxofazasi = () => {
   );
 };
 
-export default Mehnat_muxofazasi;
+export default MehnatMuxofazasi;

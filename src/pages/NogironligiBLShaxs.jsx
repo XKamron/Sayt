@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Tabs from '../components/Tabs';
 import Header from '../components/Header';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
-const Nogironligi_b_l_shaxs = () => {
+const NogironligiBLShaxs = () => {
   const tabs = [
     {
       title: 'I BOB. UMUMIY QOIDALAR',
@@ -830,4 +830,4 @@ O‘RQ-641-son</p>
   );
 };
 
-export default Nogironligi_b_l_shaxs;
+export default NogironligiBLShaxs;

@@ -1,10 +1,8 @@
-import React, { useState } from 'react';
 import Header from '../../components/Header';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
 
-const Madaniyat_sanat_sohasi = () => {
-
+const MadaniyatSanatSohasi = () => {
 
   return (
     <div className="flex flex-col min-h-screen bg-white">
@@ -154,4 +152,4 @@ PF-6000-son
   );
 };
 
-export default Madaniyat_sanat_sohasi;
+export default MadaniyatSanatSohasi;

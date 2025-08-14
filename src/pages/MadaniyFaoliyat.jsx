@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Tabs from '../components/Tabs';
 import Header from '../components/Header';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
-const Madaniy_Faoliyat = () => {
+const MadaniyFaoliyat = () => {
   const tabs = [
     {
       title: '1-bob. Umumiy qoidalar', 
@@ -681,4 +681,4 @@ O‘RQ-668-son</p>
   );
 };
 
-export default Madaniy_Faoliyat;
+export default MadaniyFaoliyat;

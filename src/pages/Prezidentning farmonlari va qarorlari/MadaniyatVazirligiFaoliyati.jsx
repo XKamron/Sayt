@@ -1,10 +1,8 @@
-import React, { useState } from 'react';
 import Header from '../../components/Header';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
 
-const Madaniyat_vazirligi_faoliyati = () => {
-
+const MadaniyatVazirligiFaoliyati = () => {
 
   return (
     <div className="flex flex-col min-h-screen bg-white">
@@ -233,4 +231,4 @@ Izoh: 3, 4 va 8-bandlar 2021-yil 1-yanvardan kuchga kiradi.
   );
 };
 
-export default Madaniyat_vazirligi_faoliyati;
+export default MadaniyatVazirligiFaoliyati;

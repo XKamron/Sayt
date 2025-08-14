@@ -1,10 +1,10 @@
-import { useState } from 'react';
+import  { useState } from 'react';
 import Tabs from '../components/Tabs';
 import Header from '../components/Header';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
-const Aholini_ish_bilan_taminlash = () => {
+const AholiniIshBilanTaminlash = () => {
   const tabs = [
     {
       title: 'I bo‘lim. Umumiy qoidalar', 
@@ -520,4 +520,4 @@ Ish bilan ta’minlashga ko‘maklashish jamg‘armasidan va mahalliy budjetlard
   );
 };
 
-export default Aholini_ish_bilan_taminlash;
+export default AholiniIshBilanTaminlash;

@@ -3,7 +3,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 
-const Oquv_dasturlari = () => {
+const OquvDasturlari = () => {
   const pdfCategories = [
     {
       title: "Fortepiano yo‘nalishi",
@@ -205,4 +205,4 @@ const Oquv_dasturlari = () => {
   );
 };
 
-export default Oquv_dasturlari;
+export default OquvDasturlari;

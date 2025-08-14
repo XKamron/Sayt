@@ -5,7 +5,7 @@ import Header from '../components/Header';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
-const Korrupsiyaga_qarshi = () => {
+const KorrupsiyagaQarshi = () => {
   const tabs = [
     {
       title: '1-bob. Umumiy qoidalar', 
@@ -594,4 +594,4 @@ O‘RQ-419-son</p>
   );
 };
 
-export default Korrupsiyaga_qarshi;
+export default KorrupsiyagaQarshi;

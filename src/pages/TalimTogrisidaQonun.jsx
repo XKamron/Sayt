@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Tabs from '../components/Tabs';
 import Header from '../components/Header';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
-const Talim_togrisida_qonun = () => {
+const TalimTogrisidaQonun = () => {
   const tabs = [
     {
       title: 'I BOB. Umumiy qoidalar', 
@@ -1345,4 +1345,4 @@ O'RQ-637-son
   );
 };
 
-export default Talim_togrisida_qonun;
+export default TalimTogrisidaQonun;

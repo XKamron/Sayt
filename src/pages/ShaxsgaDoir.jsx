@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Tabs from '../components/Tabs';
 import Header from '../components/Header';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
-const Shaxsga_doir = () => {
+const ShaxsgaDoir = () => {
   const [activeTab, setActiveTab] = useState(1);
 
   const changeTab = (tabNumber) => {
@@ -613,4 +613,4 @@ O‘RQ-547-son</p>
   );
 };
 
-export default Shaxsga_doir;
+export default ShaxsgaDoir;

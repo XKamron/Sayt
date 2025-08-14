@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
 import Header from '../../components/Header';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
 
-const Maqom_sanati = () => {
+const MaqomSanati = () => {
+
 
   return (
     <div className="flex flex-col min-h-screen bg-white font-['Montserrat', 'sans-serif']">
@@ -251,4 +251,4 @@ O‘zbekiston Respublikasi Prezidentining 2017-yil 17-noyabrdagi PQ-3391-son qar
   );
 };
 
-export default Maqom_sanati;
+export default MaqomSanati;

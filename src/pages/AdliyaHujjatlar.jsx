@@ -36,7 +36,7 @@ const columns = [
   },
 ];
 
-const Adliya_Hujjatlar = () => (
+const AdliyaHujjatlar = () => (
   <div className="min-h-screen flex flex-col bg-[#F8FCFF] font-['Montserrat', 'sans-serif']">
     <Header />
     <Navbar />
@@ -76,4 +76,4 @@ const Adliya_Hujjatlar = () => (
   </div>
 );
 
-export default Adliya_Hujjatlar;
+export default AdliyaHujjatlar;

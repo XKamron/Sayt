@@ -1,10 +1,8 @@
-import { useState } from 'react';
 import Header from '../../components/Header';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
 
-const Baxchichilik_sanati = () => {
-
+const BaxchichilikSanati = () => {
 
   return (
     <div className="flex flex-col min-h-screen bg-white font-['Montserrat', 'sans-serif']">
@@ -166,4 +164,4 @@ PQ-4320-son</p>
   );
 };
 
-export default Baxchichilik_sanati;
+export default BaxchichilikSanati;

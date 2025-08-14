@@ -25,38 +25,38 @@ import YoshlargaOid from './pages/YoshlargaOid';
 import MehnatMuhofaza from './pages/MehnatMuhofaza';
 import NogironligiBLShaxs from './pages/NogironligiBLShaxs';
 import ShaxsgaDoir from './pages/ShaxsgaDoir';
-import AktorlikSanati from './pages/Vazirlar mahkamasi qarori/Aktorlik_sanati';
-import BolalarMusiqaMaktabi from './pages/Vazirlar mahkamasi qarori/Bolalarmusiqa_maktabi';
+import AktorlikSanati from './pages/Vazirlar mahkamasi qarori/AktorlikSanati';
+import BolalarMusiqaMaktabi from './pages/Vazirlar mahkamasi qarori/BolalarmusiqaMaktabi';
 import Bakalavariat from './pages/Vazirlar mahkamasi qarori/Bakalavariat';
-import IxtisosMaktab from './pages/Vazirlar mahkamasi qarori/Ixtisos_maktab'
+import IxtisosMaktab from './pages/Vazirlar mahkamasi qarori/IxtisosMaktab'
 import Konservatoriya from './pages/Vazirlar mahkamasi qarori/Konservatoriya'
 import Atestatsiya from './pages/Vazirlar mahkamasi qarori/Atestatsiya'
 import Maktabgacha from './pages/Vazirlar mahkamasi qarori/Maktabgacha'
-import MadaniyatVazirligi from './pages/Vazirlar mahkamasi qarori/Madaniyat_vazirligi'
-import OdobAxloq from './pages/Vazirlar mahkamasi qarori/Odob_axloq'
+import MadaniyatVazirligi from './pages/Vazirlar mahkamasi qarori/MadaniyatVazirligi'
+import OdobAxloq from './pages/Vazirlar mahkamasi qarori/OdobAxloq'
 import Madaniyat from './pages/Vazirlar mahkamasi qarori/Madaniyat'
-import BolalarMusiqa from './pages/Prezidentning farmonlari va qarorlari/Bolalar_musiqa'
-import PedagogigaYonalishi from './pages/Prezidentning farmonlari va qarorlari/Pedagogiga_yonalishi'
-import MaqomSanati from './pages/Prezidentning farmonlari va qarorlari/Maqom_sanati'
-import BaxchichilikSanati from './pages/Prezidentning farmonlari va qarorlari/Baxchichilik_sanati'
-import KorrupsiyagaQarshiP from './pages/Prezidentning farmonlari va qarorlari/Korrupsiyaga_qarshi_P'
-import KorrupsiyagaQarshi from './pages/Korrupsiyaga_qarshi'
-import MusiqaMaktablari from './pages/Prezidentning farmonlari va qarorlari/Musiqa_maktablari'
-import MadaniyatVazirligiFaoliyati from './pages/Prezidentning farmonlari va qarorlari/Madaniyat_vazirligi_faoliyati'
-import MadaniyatSanatSohasi from './pages/Prezidentning farmonlari va qarorlari/Madaniyat_sanat_sohasi'
-import MadaniyatSanatniRivojlantirish from './pages/Prezidentning farmonlari va qarorlari/Madaniyat_sanatni_rivojlantirish'
-import MadaniyatSanatSohasiYenadaRivojlantirish from './pages/Prezidentning farmonlari va qarorlari/Madaniyat_sanat_sohasi_yenada_rivojlantirish'
-import BmsmXodimlari from './pages/Bmsm_xodimlari'
-import MalakaTavsiflari from './pages/Malaka_tavsiflari'
-import OquvchilarXavfsizligi from './pages/Oquvchilar_xavfsizligi'
-import MehnatMuxofazasi from './pages/Mehnat_muxofazasi'
-import MehnatniMuhofazaQilish from './pages/Mehnatni_Muhofaza_qilish'
-import OquvDasturlari from './pages/Oquv_dasturlari'
+import BolalarMusiqa from './pages/Prezidentning farmonlari va qarorlari/BolalarMusiqa'
+import PedagogigaYonalishi from './pages/Prezidentning farmonlari va qarorlari/PedagogigaYonalishi'
+import MaqomSanati from './pages/Prezidentning farmonlari va qarorlari/MaqomSanati'
+import BaxchichilikSanati from './pages/Prezidentning farmonlari va qarorlari/BaxchichilikSanati'
+import KorrupsiyagaQarshiP from './pages/Prezidentning farmonlari va qarorlari/KorrupsiyagaQarshiP'
+import KorrupsiyagaQarshi from './pages/KorrupsiyagaQarshi'
+import MusiqaMaktablari from './pages/Prezidentning farmonlari va qarorlari/MusiqaMaktablari'
+import MadaniyatVazirligiFaoliyati from './pages/Prezidentning farmonlari va qarorlari/MadaniyatVazirligiFaoliyati'
+import MadaniyatSanatSohasi from './pages/Prezidentning farmonlari va qarorlari/MadaniyatSanatSohasi'
+import MadaniyatSanatniRivojlantirish from './pages/Prezidentning farmonlari va qarorlari/MadaniyatSanatniRivojlantirish'
+import MadaniyatSanatSohasiYenadaRivojlantirish from './pages/Prezidentning farmonlari va qarorlari/MadaniyatSanatSohasiYenadaRivojlantirish'
+import BmsmXodimlari from './pages/BmsmXodimlari'
+import MalakaTavsiflari from './pages/MalakaTavsiflari'
+import OquvchilarXavfsizligi from './pages/OquvchilarXavfsizligi'
+import MehnatMuxofazasi from './pages/MehnatMuxofazasi'
+import MehnatniMuhofazaQilish from './pages/MehnatniMuhofazaQilish'
+import OquvDasturlari from './pages/OquvDasturlari'
 import Tanlovlar from './pages/Tanlovlar'
-import OquvjarayonlariHujjatlar from './pages/Oquvjarayonlari_hujjatlar'
+import OquvjarayonlariHujjatlar from './pages/OquvjarayonlariHujjatlar'
 import Hujjatlar from './pages/Hujjatlar'
 import Korrupsiya from './pages/Korrupsiya'
-import BmsmPedagogikKengash from './pages/Bmsm_pedagogik_kengash'
+import BmsmPedagogikKengash from './pages/BmsmPedagogikKengash'
 import DavlatRamzlari from './components/DavlatRamzlari'
 import TaraqqiyotStrategiya from './components/TaraqqiyotStrategiya'
 import BeshTashabbus from './components/BeshTashabbus'
@@ -70,63 +70,63 @@ function App() {
         <Route path="/kodeks" element={<Kodeks />} />
         <Route path="/asosiy" element={<Asosiy />} />
         <Route path="/parent" element={<Parent />} />
-        <Route path="/maktab_korsatkichlari" element={<MaktabKorsatkichlari />} />
-        <Route path="/savol_javob" element={<SavolJavob />} />
+        <Route path="/maktabKorsatkichlari" element={<MaktabKorsatkichlari />} />
+        <Route path="/savolJavob" element={<SavolJavob />} />
         <Route path="/vazir" element={<Vazir />} />
-        <Route path="/prezident_farmonlari" element={<PrezidentFarmonlari />} />
-        <Route path="/vazir_buyruqlari" element={<VazirBuyruqlari />} />
-        <Route path="/adliya_hujjatlar" element={<AdliyaHujjatlar />} />
+        <Route path="/prezidentFarmonlari" element={<PrezidentFarmonlari />} />
+        <Route path="/vazirBuyruqlari" element={<VazirBuyruqlari />} />
+        <Route path="/adliyaHujjatlar" element={<AdliyaHujjatlar />} />
         <Route path="/rahbariyat" element={<Rahbariyat />} />
         <Route path="/xodimlar" element={<Xodimlar />} />
-        <Route path="/bmsm_hujjatlar" element={<BmsmHujjatlar />} />
-        <Route path="/lokal_hujjatlar" element={<LokalHujjatlar />} />
-        <Route path="/talim_togrisida_qonun" element={<TalimTogrisidaQonun />} />
-        <Route path="/aholini_ish_bilan_taminlash" element={<AholiniIshBilanTaminlash />} />
-        <Route path="/bola_huquqlari" element={<BolaHuquqlari />} />
-        <Route path="/jismoniy_yuridik_shaxs" element={<JismoniyYuridikShaxs />} />
-        <Route path="/kasaba_uyushmasi" element={<KasabaUyushmasi />} />
-        <Route path="/korrupsiyaga_qarshi_P" element={<KorrupsiyagaQarshiP />} />
-        <Route path="/korrupsiyaga_qarshi" element={<KorrupsiyagaQarshi />} />
-        <Route path="/madaniy_faoliyat" element={<MadaniyFaoliyat />} />
+        <Route path="/bmsmHujjatlar" element={<BmsmHujjatlar />} />
+        <Route path="/lokalHujjatlar" element={<LokalHujjatlar />} />
+        <Route path="/talimTogrisidaQonun" element={<TalimTogrisidaQonun />} />
+        <Route path="/aholiniIshBilanTaminlash" element={<AholiniIshBilanTaminlash />} />
+        <Route path="/bolaHuquqlari" element={<BolaHuquqlari />} />
+        <Route path="/jismoniyYuridikShaxs" element={<JismoniyYuridikShaxs />} />
+        <Route path="/kasabaUyushmasi" element={<KasabaUyushmasi />} />
+        <Route path="/korrupsiyagaQarshiP" element={<KorrupsiyagaQarshiP />} />
+        <Route path="/korrupsiyagaQarshi" element={<KorrupsiyagaQarshi />} />
+        <Route path="/madaniyFaoliyat" element={<MadaniyFaoliyat />} />
         <Route path="/yoshlargaOid" element={<YoshlargaOid />} />
-        <Route path="/mehnat_muhofaza" element={<MehnatMuhofaza />} />
-        <Route path="/nogironligi_b_l_shaxs" element={<NogironligiBLShaxs />} />
-        <Route path="/shaxsga_doir" element={<ShaxsgaDoir />} />
-        <Route path="/aktorlik_sanati" element={<AktorlikSanati />} />
-        <Route path="/bolalarmusiqa_maktabi" element={<BolalarMusiqaMaktabi />} />
+        <Route path="/mehnatMuhofaza" element={<MehnatMuhofaza />} />
+        <Route path="/nogironligiBLShaxs" element={<NogironligiBLShaxs />} />
+        <Route path="/shaxsgaDoir" element={<ShaxsgaDoir />} />
+        <Route path="/aktorlikSanati" element={<AktorlikSanati />} />
+        <Route path="/bolalarmusiqaMaktabi" element={<BolalarMusiqaMaktabi />} />
         <Route path="/bakalavariat" element={<Bakalavariat />} />
-        <Route path="/ixtisos_maktab" element={<IxtisosMaktab />} />
+        <Route path="/ixtisosMaktab" element={<IxtisosMaktab />} />
         <Route path="/konservatoriya" element={<Konservatoriya />} />
         <Route path="/atestatsiya" element={<Atestatsiya />} />
         <Route path="/maktabgacha" element={<Maktabgacha />} />
-        <Route path="/madaniyat_vazirligi" element={<MadaniyatVazirligi />} />
-        <Route path="/odob_axloq" element={<OdobAxloq />} />
+        <Route path="/madaniyatVazirligi" element={<MadaniyatVazirligi />} />
+        <Route path="/odobAxloq" element={<OdobAxloq />} />
         <Route path="/madaniyat" element={<Madaniyat />} />
-        <Route path="/bolalar_musiqa" element={<BolalarMusiqa />} />
-        <Route path="/pedagogiga_yonalishi" element={<PedagogigaYonalishi />} />
-        <Route path="/maqom_sanati" element={<MaqomSanati />} />
-        <Route path="/baxchichilik_sanati" element={<BaxchichilikSanati />} />
-        <Route path="/musiqa_maktablari" element={<MusiqaMaktablari />} />
-        <Route path="/madaniyat_vazirligi_faoliyati" element={<MadaniyatVazirligiFaoliyati />} />
-        <Route path="/madaniyat_sanat_sohasi" element={<MadaniyatSanatSohasi />} />
-        <Route path="/madaniyat_sanatni_rivojlantirish" element={<MadaniyatSanatniRivojlantirish />} />
-        <Route path="/madaniyat_sanat_sohasi_yenada_rivojlantirish" element={<MadaniyatSanatSohasiYenadaRivojlantirish />} />
-        <Route path="/bmsm_xodimlari" element={<BmsmXodimlari />} />
-        <Route path="/malaka_tavsiflari" element={<MalakaTavsiflari />} />
-        <Route path="/oquvchilar_xavfsizligi" element={<OquvchilarXavfsizligi />} />
-        <Route path="/mehnat_muxofazasi" element={<MehnatMuxofazasi />} />
-        <Route path="/mehnatni_muhofaza_qilish" element={<MehnatniMuhofazaQilish />} />
-        <Route path="/oquv_dasturlari" element={<OquvDasturlari />} />
+        <Route path="/bolalarMusiqa" element={<BolalarMusiqa />} />
+        <Route path="/pedagogigaYonalishi" element={<PedagogigaYonalishi />} />
+        <Route path="/maqomSanati" element={<MaqomSanati />} />
+        <Route path="/baxchichilikSanati" element={<BaxchichilikSanati />} />
+        <Route path="/musiqaMaktablari" element={<MusiqaMaktablari />} />
+        <Route path="/madaniyatVazirligiFaoliyati" element={<MadaniyatVazirligiFaoliyati />} />
+        <Route path="/madaniyatSanatSohasi" element={<MadaniyatSanatSohasi />} />
+        <Route path="/madaniyatSanatniRivojlantirish" element={<MadaniyatSanatniRivojlantirish />} />
+        <Route path="/madaniyatSanatSohasiYenadaRivojlantirish" element={<MadaniyatSanatSohasiYenadaRivojlantirish />} />
+        <Route path="/bmsmXodimlari" element={<BmsmXodimlari />} />
+        <Route path="/malakaTavsiflari" element={<MalakaTavsiflari />} />
+        <Route path="/oquvchilarXavfsizligi" element={<OquvchilarXavfsizligi />} />
+        <Route path="/mehnatMuxofazasi" element={<MehnatMuxofazasi />} />
+        <Route path="/mehnatniMuhofazaQilish" element={<MehnatniMuhofazaQilish />} />
+        <Route path="/oquvDasturlari" element={<OquvDasturlari />} />
         <Route path="/Tanlovlar" element={<Tanlovlar />} />
-        <Route path="/Oquvjarayonlari_hujjatlar" element={<OquvjarayonlariHujjatlar />} />
+        <Route path="/OquvjarayonlariHujjatlar" element={<OquvjarayonlariHujjatlar />} />
         <Route path="/hujjatlar" element={<Hujjatlar />} />
         <Route path="/korrupsiya" element={<Korrupsiya />} />
-        <Route path="/bmsm_pedagogik_kengash" element={<BmsmPedagogikKengash />} />
+        <Route path="/bmsmPedagogikKengash" element={<BmsmPedagogikKengash />} />
         <Route path="*" element={<Error />} />
-        <Route path="/davlat_ramzlari" element={<DavlatRamzlari />} />
-        <Route path="/taraqqiyot_strategiya" element={<TaraqqiyotStrategiya />} />
-        <Route path="/besh_tashabbus" element={<BeshTashabbus />} />
-        <Route path="/bmsm_xodimlari" element={<BmsmXodimlari />} />
+        <Route path="/davlatRamzlari" element={<DavlatRamzlari />} />
+        <Route path="/taraqqiyotStrategiya" element={<TaraqqiyotStrategiya />} />
+        <Route path="/beshTashabbus" element={<BeshTashabbus />} />
+        <Route path="/bmsmXodimlari" element={<BmsmXodimlari />} />
       </Routes>
     </Router>
   );

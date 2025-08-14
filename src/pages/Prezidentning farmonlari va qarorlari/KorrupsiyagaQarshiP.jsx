@@ -1,10 +1,8 @@
-import { useState } from 'react';
 import Header from '../../components/Header';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
 
-const Korrupsiyaga_qarshi = () => {
-
+const KorrupsiyagaQarshiP = () => {
 
   return (
     <div className="flex flex-col min-h-screen bg-white font-['Montserrat', 'sans-serif']">
@@ -145,4 +143,4 @@ PF-5729-son</p>
   );
 };
 
-export default Korrupsiyaga_qarshi;
+export default KorrupsiyagaQarshiP;

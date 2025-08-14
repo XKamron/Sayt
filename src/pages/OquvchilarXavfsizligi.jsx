@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Header from '../components/Header';
 import Navbar from '../components/Navbar';
@@ -77,7 +77,7 @@ const SafetySection = ({ title, items, id }) => (
   </section>
 );
 
-const Oquvchilar_xavfsizligi = () => {
+const OquvchilarXavfsizligi = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [setActiveSection] = useState('fire-occurrence');
 
@@ -99,6 +99,16 @@ const Oquvchilar_xavfsizligi = () => {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      window.scrollTo({
+        top: element.offsetTop - 80,
+        behavior: 'smooth'
+      });
+    }
+  };
 
   const fireOccurrence = [
     { image: pj1, text: "Yonayotgan elektr asboblarini suv bilan o'chirma.", isWrong: true },
@@ -147,6 +157,7 @@ const Oquvchilar_xavfsizligi = () => {
     <div className="min-h-screen flex flex-col bg-gray-50 font-['Montserrat', 'sans-serif']">
       <Header />
       <Navbar />
+      
 
       <main className="flex-grow py-8 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
@@ -280,4 +291,4 @@ const Oquvchilar_xavfsizligi = () => {
   );
 };
 
-export default Oquvchilar_xavfsizligi;
+export default OquvchilarXavfsizligi;

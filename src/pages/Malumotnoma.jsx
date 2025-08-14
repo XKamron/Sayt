@@ -67,4 +67,4 @@ const Malumotnoma = () => {
   )
 }
 
-export default Malumotnoma
+export default Malumotnoma;

@@ -1,10 +1,8 @@
-import React, { useState } from 'react';
 import Header from '../../components/Header';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
 
-const Musiqa_maktablari = () => {
-
+const MusiqaMaktablari = () => {
 
   return (
     <div className="flex flex-col min-h-screen bg-white font-['Montserrat', 'sans-serif']">
@@ -60,4 +58,4 @@ PQ-4468-son</p>
   );
 };
 
-export default Musiqa_maktablari;
+export default MusiqaMaktablari;

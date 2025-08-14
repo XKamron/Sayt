@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Tabs from '../components/Tabs';
 import Header from '../components/Header';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
-const Mehnat_muhofaza = () => {
+const MehnatMuhofaza = () => {
   const tabs = [
     {
       title: '1-bob. Umumiy qoidalar', 
@@ -616,4 +616,4 @@ O‘RQ-410-son</p>
   );
 };
 
-export default Mehnat_muhofaza;
+export default MehnatMuhofaza;

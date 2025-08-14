@@ -76,7 +76,7 @@ const columns = [
   },
 ];
 
-const Vazir_buyruqlari = () => (
+const VazirBuyruqlari = () => (
   <div className="min-h-screen flex flex-col bg-[#F8FCFF] font-['Montserrat', 'sans-serif']">
     <Header />
     <Navbar />
@@ -116,4 +116,4 @@ const Vazir_buyruqlari = () => (
   </div>
 );
 
-export default Vazir_buyruqlari;
+export default VazirBuyruqlari;

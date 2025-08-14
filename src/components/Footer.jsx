@@ -1,7 +1,8 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { logo } from '../img';
 import { 
-  FaPhone, FaEnvelope, FaMapMarkerAlt, FaClock, FaTelegram 
+  FaPhone, FaEnvelope, FaMapMarkerAlt, FaClock, 
+   FaTelegram 
 } from 'react-icons/fa';
 import AOS from 'aos';
 import 'aos/dist/aos.css';

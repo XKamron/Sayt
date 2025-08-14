@@ -5,7 +5,7 @@ import Header from '../components/Header';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
-const Bola_huquqlari = () => {
+const BolaHuquqlari = () => {
   const tabs = [
     {
       title: '1-bob. Umumiy qoidalar', 
@@ -578,4 +578,4 @@ O‘RQ-637-son</p>
   );
 };
 
-export default Bola_huquqlari;
+export default BolaHuquqlari;

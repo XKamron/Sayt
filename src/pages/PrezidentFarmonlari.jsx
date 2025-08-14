@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Header from '../components/Header';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
@@ -82,7 +82,7 @@ const columns = [
     fileName: '/files/PQ_406_25_12_2023.pdf',
   },
 ];
-const Prezident_Farmonlari = () => {
+const PrezidentFarmonlari = () => {
 
   return (
     <div className="min-h-screen flex flex-col bg-[#F8FCFF] font-['Montserrat', 'sans-serif']">
@@ -132,4 +132,4 @@ const Prezident_Farmonlari = () => {
   );
 };
 
-export default Prezident_Farmonlari;
+export default PrezidentFarmonlari;

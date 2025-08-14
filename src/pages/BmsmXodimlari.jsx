@@ -1,10 +1,8 @@
-import { useState } from 'react';
 import Header from '../components/Header';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
 const BmsmXodimlari = () => {
-  const [setActiveTab] = useState(1);
 
   return (
     <div className="min-h-screen flex flex-col bg-[#F8FCFF] font-['Montserrat', 'sans-serif']">

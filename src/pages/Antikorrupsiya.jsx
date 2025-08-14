@@ -22,7 +22,7 @@ const Antikorrupsiya = () => {
                                 2016 yil 24 noyabrda qabul qilingan
                                 Senat tomonidan 2016 yil 13 dekabrda maʼqullangan
                             </p>
-                            <a href="#" className="flex justify-center items-center text-center text-sky-900 text-[15px] md:text-[20px] lg:text-[24px] xl:text-[27px] font-medium font-['Montserrat'] mt-3">
+                            <a href="/" className="flex justify-center items-center text-center text-sky-900 text-[15px] md:text-[20px] lg:text-[24px] xl:text-[27px] font-medium font-['Montserrat'] mt-3">
                                 TO'LIQ TANISHISH UCHUN HAVOLA
                                 <IoIosArrowForward className="ml-3" />
                             </a>
@@ -33,7 +33,7 @@ const Antikorrupsiya = () => {
                                 2016 yil 24 noyabrda qabul qilingan
                                 Senat tomonidan 2016 yil 13 dekabrda maʼqullangan
                             </p>
-                            <a href="#" className="flex justify-center items-center text-center text-sky-900 text-[15px] md:text-[20px] lg:text-[24px] xl:text-[27px] font-medium font-['Montserrat'] mt-3">
+                            <a href="/" className="flex justify-center items-center text-center text-sky-900 text-[15px] md:text-[20px] lg:text-[24px] xl:text-[27px] font-medium font-['Montserrat'] mt-3">
                                 TO'LIQ TANISHISH UCHUN HAVOLA
                                 <IoIosArrowForward className="ml-3" />
                             </a>
@@ -44,7 +44,7 @@ const Antikorrupsiya = () => {
                                 2016 yil 24 noyabrda qabul qilingan
                                 Senat tomonidan 2016 yil 13 dekabrda maʼqullangan
                             </p>
-                            <a href="#" className="flex justify-center items-center text-center text-sky-900 text-[15px] md:text-[20px] lg:text-[24px] xl:text-[27px] font-medium font-['Montserrat'] mt-3">
+                            <a href="/" className="flex justify-center items-center text-center text-sky-900 text-[15px] md:text-[20px] lg:text-[24px] xl:text-[27px] font-medium font-['Montserrat'] mt-3">
                                 TO'LIQ TANISHISH UCHUN HAVOLA
                                 <IoIosArrowForward className="ml-3" />
                             </a>
@@ -55,7 +55,7 @@ const Antikorrupsiya = () => {
                                 2016 yil 24 noyabrda qabul qilingan
                                 Senat tomonidan 2016 yil 13 dekabrda maʼqullangan
                             </p>
-                            <a href="#" className="flex justify-center items-center text-center text-sky-900 text-[15px] md:text-[20px] lg:text-[24px] xl:text-[27px] font-medium font-['Montserrat'] mt-3">
+                            <a href="/" className="flex justify-center items-center text-center text-sky-900 text-[15px] md:text-[20px] lg:text-[24px] xl:text-[27px] font-medium font-['Montserrat'] mt-3">
                                 TO'LIQ TANISHISH UCHUN HAVOLA
                                 <IoIosArrowForward className="ml-3" />
                             </a>

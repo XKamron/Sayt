@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
 import Header from '../../components/Header';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
 
-const Madaniyat_sanatni_rivojlantirish = () => {
+const MadaniyatSanatniRivojlantirish = () => {
+
 
   return (
     <div className="flex flex-col min-h-screen bg-white font-['Montserrat', 'sans-serif']">
@@ -131,4 +131,4 @@ z) 2-ilovaning 2 va 3-bandlari o‘z kuchini yo‘qotgan deb hisoblansin.
   );
 };
 
-export default Madaniyat_sanatni_rivojlantirish;
+export default MadaniyatSanatniRivojlantirish;

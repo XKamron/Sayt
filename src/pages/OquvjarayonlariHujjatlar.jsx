@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
-const Oquvjarayonlari_hujjatlar = () => {
+const OquvjarayonlariHujjatlar = () => {
   const documents = [
     {
       title: "O'quv yili ish rejasi",
@@ -90,4 +90,4 @@ const Oquvjarayonlari_hujjatlar = () => {
   );
 };
 
-export default Oquvjarayonlari_hujjatlar;
+export default OquvjarayonlariHujjatlar;

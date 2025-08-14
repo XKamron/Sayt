@@ -1,8 +1,8 @@
 import React, { useRef } from 'react';
-import { motion, useInView } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
-import { FaArrowRight, FaCalendarAlt, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope,  } from 'react-icons/fa';
+import { FaArrowRight, FaCalendarAlt, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope,} from 'react-icons/fa';
 import { MdErrorOutline } from 'react-icons/md';
 import ErrorBoundary from '../components/ErrorBoundary';
 import {slider_1,slider_2, fortepiano, uzbek, vokal, news_32_15,  xoreografiya, tasviriy, nazariya } from '../img';
@@ -61,7 +61,6 @@ const fadeUp = {
 
 
 const Home = () => {
-  const ref = useRef(null);
   const [sectionErrors, setSectionErrors] = React.useState({});
   
   // Sections data for departments

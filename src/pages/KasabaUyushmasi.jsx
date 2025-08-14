@@ -5,7 +5,7 @@ import Header from '../components/Header';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
-const Kasaba_uyushmasi = () => {
+const KasabaUyushmasi = () => {
   const tabs = [
     {
       title: '1-bob. Umumiy qoidalar', 
@@ -666,4 +666,4 @@ O‘RQ-637-son</p>
       );
     };
 
-    export default Kasaba_uyushmasi;
+    export default KasabaUyushmasi;

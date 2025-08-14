@@ -157,7 +157,7 @@ const DavlatRamzlari = () => {
                 </section>
 
                
-            </div> {/* Close max-w-4xl mx-auto */}
+            </div> 
         </main>
         <Footer />
     </div>

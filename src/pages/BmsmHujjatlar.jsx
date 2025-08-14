@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
-const Bmsm = () => {
+const BmsmHujjatlar = () => {
   return (
     <div>
       <Header />
@@ -60,4 +60,4 @@ const Bmsm = () => {
   );
 };
 
-export default Bmsm;
+export default BmsmHujjatlar;

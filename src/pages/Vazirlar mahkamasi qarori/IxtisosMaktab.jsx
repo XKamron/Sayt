@@ -1,9 +1,8 @@
-import React, { useState } from 'react';
 import Header from '../../components/Header';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
 
-const Ixtisos_maktab = () => {
+const IxtisosMaktab = () => {
 
   return (
     <div className="flex flex-col min-h-screen bg-white font-['Montserrat', 'sans-serif']">
@@ -357,4 +356,4 @@ O‘quvchining ixtisoslashtirilgan maktab-internatda to‘lov to‘langan davrda
   );
 };
 
-export default Ixtisos_maktab;
+export default IxtisosMaktab;

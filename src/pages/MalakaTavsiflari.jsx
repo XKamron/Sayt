@@ -1,11 +1,11 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Header from "../components/Header";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { jobDescriptions } from "../data/jobDescriptions";
 import { PiCaretDown, PiCaretUp } from 'react-icons/pi';
 
-const Malaka_tavsiflari = () => {
+const MalakaTavsiflari = () => {
   const [openIndex, setOpenIndex] = useState(0);
 
   const handleToggle = (index) => {
@@ -68,4 +68,4 @@ const Malaka_tavsiflari = () => {
   );
 };
 
-export default Malaka_tavsiflari;
+export default MalakaTavsiflari;

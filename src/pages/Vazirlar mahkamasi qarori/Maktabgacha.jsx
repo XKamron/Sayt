@@ -1,10 +1,8 @@
-import React, { useState } from 'react';
 import Header from '../../components/Header';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
 
-const Atestatsiya = () => {
-
+const Maktabgacha = () => {
   return (
     <div className="flex flex-col min-h-screen bg-white font-['Montserrat', 'sans-serif']">
       <Header />
@@ -713,4 +711,4 @@ o‘quv fani bo‘yicha test yoki malaka sinovlarini o‘tkazish jarayonida tash
   );
 };
 
-export default Atestatsiya;
+export default Maktabgacha;

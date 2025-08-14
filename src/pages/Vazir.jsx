@@ -63,7 +63,7 @@ const columns = [
   },
 ];
 
-const Kodeks = () => (
+const Vazir = () => (
   <div className="min-h-screen flex flex-col bg-white">
     <Header />
     <Navbar />
@@ -108,4 +108,4 @@ const Kodeks = () => (
   </div>
 );
 
-export default Kodeks;
+export default Vazir;

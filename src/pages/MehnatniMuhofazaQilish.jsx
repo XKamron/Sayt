@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Header from "../components/Header";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { mehnatniMuhofazaQilishQonun } from "../data/mehnatniMuhofazaQilishQonun";
 
-const Mehnatni_Muhofaza_qilish = () => {
+const MehnatniMuhofazaQilish = () => {
   const [openIndex, setOpenIndex] = useState(0);
 
   const handleToggle = (index) => {
@@ -79,4 +79,4 @@ const Mehnatni_Muhofaza_qilish = () => {
   );
 };
 
-export default Mehnatni_Muhofaza_qilish;
+export default MehnatniMuhofazaQilish;

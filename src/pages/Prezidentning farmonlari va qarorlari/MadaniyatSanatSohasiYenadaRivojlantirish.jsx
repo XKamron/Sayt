@@ -1,10 +1,8 @@
-import { useState } from 'react';
 import Header from '../../components/Header';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
 
-const Madaniyat_sanat_sohasi_yenada_rivojlantirish = () => {
-
+const MadaniyatSanatSohasiYenadaRivojlantirish = () => {
   return (
     <div className="flex flex-col min-h-screen bg-white font-['Montserrat', 'sans-serif']">
       <Header />
@@ -309,4 +307,4 @@ Amalga oshirilayotgan chora-tadbirlar natijadorligi yuzasidan O‘zbekiston Resp
     </div>
   );
 };
-export default Madaniyat_sanat_sohasi_yenada_rivojlantirish;
+export default MadaniyatSanatSohasiYenadaRivojlantirish;

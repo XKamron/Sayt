@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Header from "../components/Header";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
@@ -179,7 +179,7 @@ Teаtr sаn’аti bo‘yichа – she’r yoki mоnоlоgni ifоdаli o‘qish,
   },
 ];
 
-const Lokal_Hujjatlar = () => {
+const LokalHujjatlar = () => {
   const [openIndex, setOpenIndex] = useState(null);
 
   const handleToggle = (idx) => {
@@ -239,4 +239,4 @@ const Lokal_Hujjatlar = () => {
   );
 };
 
-export default Lokal_Hujjatlar;
+export default LokalHujjatlar;

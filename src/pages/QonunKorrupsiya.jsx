@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Header from "../components/Header";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { qonunKorrupsiya } from "../data/qonunKorrupsiya";
 
-const Qonun_korrupsiya = () => {
+const QonunKorrupsiya = () => {
   const [openIndex, setOpenIndex] = useState(null);
 
   const handleToggle = (index) => {
@@ -97,4 +97,4 @@ const Qonun_korrupsiya = () => {
   );
 };
 
-export default Qonun_korrupsiya;
+export default QonunKorrupsiya;
