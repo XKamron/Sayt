@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import Particles from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
-import { FaCalendarAlt, FaPhone, FaEnvelope, FaClock, FaUsers, FaGraduationCap, FaInfoCircle } from "react-icons/fa";
+import { FaCalendarAlt, FaUsers, FaGraduationCap, } from "react-icons/fa";
 
 import Navbar from "../components/Navbar";
 import Header from "../components/Header";
@@ -18,11 +18,6 @@ const fadeUp = {
   hidden: { opacity: 0, y: 40 },
   visible: { opacity: 1, y: 0 },
 };
-const scaleIn = {
-  hidden: { opacity: 0, scale: 0.95 },
-  visible: { opacity: 1, scale: 1 },
-};
-
 
 // === Floating Music Notes ===
 const MusicNotes = () => {

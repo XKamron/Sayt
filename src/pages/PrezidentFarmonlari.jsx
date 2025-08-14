@@ -1,5 +1,5 @@
 import React from 'react';
-import { useNavigate, Link } from 'react-router-dom';
+import {Link } from 'react-router-dom';
 import Header from '../components/Header';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
@@ -83,7 +83,6 @@ const columns = [
   },
 ];
 const Prezident_Farmonlari = () => {
-  const navigate = useNavigate();
 
   return (
     <div className="min-h-screen flex flex-col bg-[#F8FCFF] font-['Montserrat', 'sans-serif']">

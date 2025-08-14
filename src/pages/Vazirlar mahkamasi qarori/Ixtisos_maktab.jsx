@@ -1,15 +1,9 @@
 import React, { useState } from 'react';
-import Tabs from '../../components/Tabs';
 import Header from '../../components/Header';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
 
 const Ixtisos_maktab = () => {
-  const [activeTab, setActiveTab] = useState(1);
-
-  const changeTab = (tabNumber) => {
-    setActiveTab(tabNumber);
-  };
 
   return (
     <div className="flex flex-col min-h-screen bg-white font-['Montserrat', 'sans-serif']">

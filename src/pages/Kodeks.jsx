@@ -69,7 +69,7 @@ const columns = [
 ];
 const Kodeks = () => {
   // Add hover state for better interactivity
-  const [hoveredCard, setHoveredCard] = useState(null);
+  const [setHoveredCard] = useState(null);
 
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-br from-gray-50 to-blue-50 font-Montserrat">

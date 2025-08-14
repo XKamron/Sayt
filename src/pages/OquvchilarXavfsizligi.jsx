@@ -79,7 +79,7 @@ const SafetySection = ({ title, items, id }) => (
 
 const Oquvchilar_xavfsizligi = () => {
   const [isScrolled, setIsScrolled] = useState(false);
-  const [activeSection, setActiveSection] = useState('fire-occurrence');
+  const [setActiveSection] = useState('fire-occurrence');
 
   useEffect(() => {
     const handleScroll = () => {
@@ -99,16 +99,6 @@ const Oquvchilar_xavfsizligi = () => {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
-
-  const scrollToSection = (sectionId) => {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      window.scrollTo({
-        top: element.offsetTop - 80,
-        behavior: 'smooth'
-      });
-    }
-  };
 
   const fireOccurrence = [
     { image: pj1, text: "Yonayotgan elektr asboblarini suv bilan o'chirma.", isWrong: true },
@@ -157,7 +147,6 @@ const Oquvchilar_xavfsizligi = () => {
     <div className="min-h-screen flex flex-col bg-gray-50 font-['Montserrat', 'sans-serif']">
       <Header />
       <Navbar />
-      
 
       <main className="flex-grow py-8 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">

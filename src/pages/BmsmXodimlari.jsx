@@ -1,16 +1,10 @@
-import React, { useState } from 'react';
-import Tabs from '../components/Tabs';
+import { useState } from 'react';
 import Header from '../components/Header';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import { PiCaretDown, PiCaretUp } from 'react-icons/pi';
 
-const Bmsm_xodimlari = () => {
-  const [activeTab, setActiveTab] = useState(1);
-
-  const changeTab = (tabNumber) => {
-    setActiveTab(tabNumber);
-  };
+const BmsmXodimlari = () => {
+  const [setActiveTab] = useState(1);
 
   return (
     <div className="min-h-screen flex flex-col bg-[#F8FCFF] font-['Montserrat', 'sans-serif']">
@@ -540,4 +534,4 @@ qonunda belgilangan boshqa talablarga muvofiq bo‘lmagan murojaatlar.
   );
 };
 
-export default Bmsm_xodimlari;
+export default BmsmXodimlari;

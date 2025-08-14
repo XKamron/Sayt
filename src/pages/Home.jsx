@@ -2,12 +2,10 @@ import React, { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
-import { FaArrowRight, FaCalendarAlt, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaFacebook, FaInstagram, FaTelegram } from 'react-icons/fa';
-import { MdArrowForwardIos } from 'react-icons/md';
+import { FaArrowRight, FaCalendarAlt, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope,  } from 'react-icons/fa';
 import { MdErrorOutline } from 'react-icons/md';
-import { Link } from 'react-router-dom';
 import ErrorBoundary from '../components/ErrorBoundary';
-import { news_1,news_2,news_3, slider_1,slider_2,slider_3, fortepiano, uzbek, vokal, news_32_15,  xoreografiya, tasviriy, nazariya } from '../img';
+import {slider_1,slider_2, fortepiano, uzbek, vokal, news_32_15,  xoreografiya, tasviriy, nazariya } from '../img';
 import { Suspense } from 'react';
 
 
@@ -64,7 +62,6 @@ const fadeUp = {
 
 const Home = () => {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, amount: 0.2 });
   const [sectionErrors, setSectionErrors] = React.useState({});
   
   // Sections data for departments
@@ -187,30 +184,6 @@ const Home = () => {
     }
   ];
 
-  // Testimonials data
-  const testimonials = [
-    {
-      id: 1,
-      name: "Aziza Xolmatova",
-      role: "Ota-ona",
-      content: "Farzandim bu maktabda 3 yildan beri o'qiyapti. Juda ham mamnunmiz. O'qituvchilar juda malakali va mehribon.",
-      image: "https://randomuser.me/api/portraits/women/32.jpg"
-    },
-    {
-      id: 2,
-      name: "Dilshod Rajabov",
-      role: "O'quvchi",
-      content: "Men bu yerda 5 yildan beri o'qiyman. Juda yaxshi o'qituvchilar va zamonaviy usullarda darslar olib boriladi.",
-      image: "https://randomuser.me/api/portraits/men/44.jpg"
-    },
-    {
-      id: 3,
-      name: "Madina Karimova",
-      role: "Bitiruvchi",
-      content: "Bu maktabda o'qiganimdan juda xursandman. Endi professional musiqachi bo'lib ishlayapman.",
-      image: "https://randomuser.me/api/portraits/women/68.jpg"
-    }
-  ];
 
   return (
     <div className="relative font-['Montserrat'] bg-gradient-to-br from-gray-50 to-blue-50 overflow-hidden">
