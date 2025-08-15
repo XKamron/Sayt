@@ -79,17 +79,17 @@ const SafetySection = ({ title, items, id }) => (
 
 
 const OquvchilarXavfsizligi = () => {
-  const [isScrolled, setIsScrolled] = useState(false);
+  const [isScrolled] = useState(false);
   const [setActiveSection] = useState('fire-occurrence');
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 100);
+      setActiveSection("section1"); 
       
       // Update active section based on scroll position
-       const sections = document.querySelectorAll('section[id]');
+      const sections = document.querySelectorAll('section[id]');
       sections.forEach(section => {
-        const sectionTop = section.offsetTop - 100;
+        const sectionTop = section.offsetTop - 120; // чуть больше offset для точности
         const sectionHeight = section.offsetHeight;
         if (window.scrollY >= sectionTop && window.scrollY < sectionTop + sectionHeight) {
           setActiveSection(section.id);
@@ -97,11 +97,14 @@ const OquvchilarXavfsizligi = () => {
       });
     };
 
-        handleScroll();
 
-       window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, [setIsScrolled, setActiveSection]);
+       handleScroll();
+
+
+  window.addEventListener("scroll", handleScroll);
+  return () => window.removeEventListener("scroll", handleScroll);
+}, [setActiveSection]);// setIsScrolled/setActiveSection не нужны в зависимостях — они стабильные
+
 
 
   const fireOccurrence = [
@@ -140,12 +143,6 @@ const OquvchilarXavfsizligi = () => {
     { image: xs7, text: "O'tkir va kesadigan narsalarni o'ynama.", isWrong: true },
   ];
 
-  const navItems = [
-    { id: 'fire-occurrence', label: 'Yong\'in holatida' },
-    { id: 'fire-safety', label: 'Yong\'in xavfsizligi' },
-    { id: 'road-safety', label: 'Yo\'l xavfsizligi' },
-    { id: 'general-safety', label: 'Umumiy xavfsizlik' },
-  ];
 
   return (
 <div className="min-h-screen flex flex-col bg-gray-50 font-['Montserrat', 'sans-serif']">
@@ -153,7 +150,7 @@ const OquvchilarXavfsizligi = () => {
       <Navbar />
       
 
-      <main className="flex-grow py-8 px-4 sm:px-6 lg:px-8">
+        <main className="flex-grow py-8 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <h1 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12">
             O'quvchilar xavfsizligi
@@ -269,8 +266,8 @@ const OquvchilarXavfsizligi = () => {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 10l7-7m0 0l7 7m-7-7v18" />
         </svg>
       </button>
-      
-     <style jsx>{`
+
+      <style jsx>{`
         .hide-scrollbar::-webkit-scrollbar {
           display: none;
         }
