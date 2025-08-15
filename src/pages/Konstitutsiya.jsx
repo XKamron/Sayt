@@ -6,17 +6,19 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
 const Konstitutsiya = () => {
-  const [setIsMobile] = useState(false);
+   const [isMobile, setIsMobile] = useState(false);
+  
+ useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
 
-useEffect(() => {
-  const handleResize = () => {
-    setIsMobile(window.innerWidth < 768);
-  };
-    
-  handleResize();
-  window.addEventListener('resize', handleResize);
-  return () => window.removeEventListener('resize', handleResize);
-}, [setIsMobile]);
+    handleResize();
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, [setIsMobile]);
+  
+    const [activeTab, setActiveTab] = useState(1);
 
   const tabs = [
     {
@@ -1498,7 +1500,6 @@ O‘zbekiston Respublikasining Konstitutsiyasiga o‘zgartirish va qo‘shimchal
     },
     ];
 
-  const [activeTab, setActiveTab] = useState(1);
 
   const changeTab = (tabNumber) => {
     setActiveTab(tabNumber);
