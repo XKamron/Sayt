@@ -6,7 +6,9 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
 const Konstitutsiya = () => {
-  const [setIsMobile] = useState(() => window.innerWidth < 768);
+   const [isMobile, setIsMobile] = useState(() => 
+    typeof window !== 'undefined' ? window.innerWidth < 768 : false
+  );
   
  useEffect(() => {
     const handleResize = () => {
@@ -14,11 +16,13 @@ const Konstitutsiya = () => {
     };
 
     handleResize();
+
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
-  }, [setIsMobile]);
+  }, []);
   
     const [activeTab, setActiveTab] = useState(1);
+
 
   const tabs = [
     {
