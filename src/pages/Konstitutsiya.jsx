@@ -6,7 +6,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
 const Konstitutsiya = () => {
-  const [isMobile, setIsMobile] = useState(() => window.innerWidth < 768);
+  const [setIsMobile] = useState(() => window.innerWidth < 768);
   
  useEffect(() => {
     const handleResize = () => {
