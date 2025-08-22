@@ -22,7 +22,6 @@ import JismoniyYuridikShaxs from './pages/JismoniyYuridikShaxs';
 import KasabaUyushmasi from './pages/KasabaUyushmasi';
 import MadaniyFaoliyat from './pages/MadaniyFaoliyat';
 import YoshlargaOid from './pages/YoshlargaOid';
-import MehnatMuhofaza from './pages/MehnatMuhofaza';
 import NogironligiBLShaxs from './pages/NogironligiBLShaxs';
 import ShaxsgaDoir from './pages/ShaxsgaDoir';
 import AktorlikSanati from './pages/Vazirlar mahkamasi qarori/AktorlikSanati';

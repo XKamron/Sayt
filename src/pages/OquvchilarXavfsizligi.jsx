@@ -80,7 +80,7 @@ const SafetySection = ({ title, items, id }) => (
 
 const OquvchilarXavfsizligi = () => {
   const [isScrolled] = useState(false);
-  const [activeSection, setActiveSection] = useState('fire-occurrence');
+  // removed activeSection state as it was unused
 
   useEffect(() => {
     const handleScroll = () => {
