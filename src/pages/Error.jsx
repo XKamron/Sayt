@@ -4,31 +4,33 @@ import { gerbFooter, gerbFooterOpacity, border_nav } from '../img';
 
 const Error = () => {
   return (
-    <div className="flex flex-col justify-center items-center bg-[#00486C] h-screen relative">
-      {/* Top Text with Images */}
-      <div className="flex justify-center items-center mt-5 sm:mt-10 md:mt-10 lg:mt-10 absolute top-0">
-        <img src={gerbFooter} alt="" className="w-[5rem]" />
-        <img src={border_nav} alt="" className="w-[1.5px]" />
-        <div className="p-5">
-          <p className="text-md text-white">Rasmiy veb-sayt</p>
-          <p className="text-[20px] text-white font-bold">O’zbekiston Respublikasi Hokimligi</p>
+    <div className="flex flex-col min-h-screen bg-[#00486C] relative overflow-hidden">
+      {/* Top Bar */}
+      <div className="flex justify-center items-center w-full pt-6 pb-3 px-4 sm:px-8 absolute top-0 left-0 z-10">
+        <img src={gerbFooter} alt="Gerb" className="w-14 sm:w-20 md:w-24" />
+        <img src={border_nav} alt="Border" className="w-[2px] h-10 mx-4 opacity-70 hidden sm:block" />
+        <div className="text-center">
+          <p className="text-xs sm:text-base text-white opacity-80">Rasmiy veb-sayt</p>
+          <p className="text-lg sm:text-2xl md:text-3xl text-white font-bold whitespace-nowrap">O’zbekiston Respublikasi Hokimligi</p>
         </div>
       </div>
 
-      {/* Middle Text - 404 */}
-      <div className="flex items-center mt-5">
-        <h1 className="text-white text-[150px] sm:text-[260px] md:text-[300px] lg:text-[400px]  xl:text-[500px] font-extrabold font-['Montserrat']">404</h1>
+      {/* 404 Centerpiece */}
+      <div className="flex flex-1 flex-col justify-center items-center text-center z-20 px-4">
+        <h1 className="text-white font-extrabold font-['Montserrat'] text-[90px] xs:text-[140px] sm:text-[200px] md:text-[280px] lg:text-[340px] xl:text-[420px] leading-none mb-2 drop-shadow-lg transition-all duration-300">
+          404
+        </h1>
+        <p className="text-white text-lg sm:text-xl md:text-2xl mb-8 font-semibold">Sahifa topilmadi</p>
+        <Link to="/" className="inline-block">
+          <span className="inline-block bg-white/10 hover:bg-white/20 border-2 border-white text-white px-6 py-3 rounded-xl font-semibold font-['Montserrat'] text-base sm:text-lg shadow-md transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-70 mb-10">
+            Bosh sahifaga qaytish
+          </span>
+        </Link>
       </div>
 
-      {/* Bottom Text */}
-      <Link to="/" className="flex flex-row justify-center items-center">
-      <p className=" text-white text-md lg:text-2xl border-2 px-5 py-1 rounded-xl font-semibold font-['Montserrat'] mb-[11rem] sm:mb-16 md:mb-20 lg:mb-20 2xl:mb-14 absolute bottom-0">
-        Bosh sahifaga qaytish
-      </p>
-      </Link>
-
-      <div className="absolute bottom-0 left-0">
-        <img src={gerbFooterOpacity} alt="" className="xl:w-[38rem]" />
+      {/* Decorative Footer Image */}
+      <div className="absolute bottom-0 left-0 w-full flex justify-start z-0 pointer-events-none">
+        <img src={gerbFooterOpacity} alt="Gerb Footer" className="w-2/3 max-w-3xl opacity-60 select-none" />
       </div>
     </div>
   );
