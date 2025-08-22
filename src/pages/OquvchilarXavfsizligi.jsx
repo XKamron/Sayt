@@ -87,8 +87,6 @@ const OquvchilarXavfsizligi = () => {
       // Update active section based on scroll position
       const sections = document.querySelectorAll('section[id]');
       sections.forEach(section => {
-        const sectionTop = section.offsetTop - 120; // чуть больше offset для точности
-        const sectionHeight = section.offsetHeight;
         // previously setActiveSection logic removed
       });
     };

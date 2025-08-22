@@ -6,24 +6,12 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
 const Konstitutsiya = () => {
-  const [isMobile, setIsMobile] = useState(() =>
-    typeof window !== 'undefined' ? window.innerWidth < 768 : false
-  );
 
   useEffect(() => {
-    const handleResize = () => {
-      // дополнительно проверяем typeof setIsMobile на всякий случай (защита)
-      if (typeof setIsMobile === 'function') {
-        setIsMobile(window.innerWidth < 768);
-      }
-    };
-    handleResize();
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
+    // Resize handler removed since isMobile state is gone
   }, []);
-  
-    const [activeTab, setActiveTab] = useState(1);
 
+  const [activeTab, setActiveTab] = useState(1);
 
   const tabs = [
     {
