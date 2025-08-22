@@ -68,6 +68,7 @@ const columns = [
   },
 ];
 const Kodeks = () => {
+  const [hoveredCard, setHoveredCard] = useState(null);
   // Add hover state for better interactivity
 
   return (
