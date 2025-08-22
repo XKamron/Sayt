@@ -7,11 +7,11 @@ import Footer from '../components/Footer';
 const columns = [
   {
     title: 'O‘zbekiston Respublikasi Vazirlar Mahkamasining 2017-yil 11-dekabrdagi “O‘zbekiston davlat san’at va madaniyat institutida aktyorlik san’ati ta’lim yo‘nalishida maxsus sirtqi bo‘limni tashkil etish to‘g‘risida” 977-son qarori;',
-    fileName: '/aktorlik_sanati',
+    fileName: '/aktorlikSanati',
   },
   {
     title: 'O‘zbekiston Respublikasi Vazirlar Mahkamasining 2016-yil 5-maydagi “Bolalar musiqa va san’at maktablari to‘g‘risidagi nizomni tasdiqlash haqida” 144-son qarori;',
-    fileName: '/bolalarmusiqa_maktabi',
+    fileName: '/bolalarmusiqaMaktabi',
   },
   {
     title: 'O‘zbekiston Respublikasi Vazirlar Mahkamasining 2018-yil 6-apreldagi “Milliy madaniyatimiz rivojiga katta hissa qo‘shgan san’atkorlarni hamda o‘zbek san’atini dunyo sahnalarida muvaffaqiyatli namoyish etib kelayotgan yoshlarni qo‘llab-quvvatlash chora-tadbirlari to‘g‘risida” 271-son qarori;',
@@ -27,7 +27,7 @@ const columns = [
   },
   {
     title: 'O‘zbekiston Respublikasi Vazirlar Mahkamasining 2019-yil 9-yanvardagi “Ixtisoslashtirilgan san’at va madaniyat maktablari hamda maktab-internatlarning faoliyatini tashkil etish to‘g‘risida” 9-son qarori;',
-    fileName: '/ixtisos_maktab',
+    fileName: '/ixtisosMaktab',
   },
   {
     title: 'O‘zbekiston Respublikasi Vazirlar Mahkamasining 2019-yil 20-fevraldagi “O‘zbekiston davlat konservatoriyasi huzurida Musiqa sohasi pedagoglarini qayta tayyorlash va ularning malakasini oshirish markazi faoliyatini tashkil etish to‘g‘risida” 149-son qarori;',
@@ -51,11 +51,11 @@ const columns = [
   },
   {
     title: 'O‘zbekiston Respublikasi Vazirlar Mahkamasining 2021-yil 7-sentabrdagi “O‘zbekiston Respublikasi Madaniyat vazirligi to‘g‘risidagi Nizomni tasdiqlash haqida” 558-son qarori;',
-    fileName: '/madaniyat_vazirligi',
+    fileName: '/madaniyatVazirligi',
   },
   {
     title: 'O‘zbekiston Respublikasi Vazirlar Mahkamasining 2022-yil 14-oktabrdagi “Davlat fuqarolik xizmatchilari tomonidan odob-axloq qoidalariga rioya etilishini ta’minlash bo‘yicha qo‘shimcha chora-tadbirlar to‘g‘risida” 595-son qarori;',
-    fileName: '/odob_axloq',
+    fileName: '/odobAxloq',
   },
     {
     title: 'O‘zbekiston Respublikasi Vazirlar Mahkamasining 2022-yil 2-noyabrdagi “Madaniyat va san’at muassasalarini malakali mutaxassislar bilan ta’minlash va ularni davlat tomonidan tizimli qo‘llab-quvvatlash to‘g‘risida ” 633-son qarori.',

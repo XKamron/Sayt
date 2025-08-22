@@ -80,7 +80,7 @@ const SafetySection = ({ title, items, id }) => (
 
 const OquvchilarXavfsizligi = () => {
   const [isScrolled] = useState(false);
-  const [setActiveSection] = useState('fire-occurrence');
+  const [activeSection, setActiveSection] = useState('fire-occurrence');
 
   useEffect(() => {
     const handleScroll = () => {
@@ -103,7 +103,7 @@ const OquvchilarXavfsizligi = () => {
 
   window.addEventListener("scroll", handleScroll);
   return () => window.removeEventListener("scroll", handleScroll);
-}, [setActiveSection]);// setIsScrolled/setActiveSection не нужны в зависимостях — они стабильные
+}, []);// setIsScrolled/setActiveSection не нужны в зависимостях — они стабильные
 
 
 

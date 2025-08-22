@@ -89,7 +89,6 @@ function App() {
         <Route path="/korrupsiyagaQarshi" element={<KorrupsiyagaQarshi />} />
         <Route path="/madaniyFaoliyat" element={<MadaniyFaoliyat />} />
         <Route path="/yoshlargaOid" element={<YoshlargaOid />} />
-        <Route path="/mehnatMuhofaza" element={<MehnatMuhofaza />} />
         <Route path="/nogironligiBLShaxs" element={<NogironligiBLShaxs />} />
         <Route path="/shaxsgaDoir" element={<ShaxsgaDoir />} />
         <Route path="/aktorlikSanati" element={<AktorlikSanati />} />
@@ -123,7 +122,7 @@ function App() {
         <Route path="/korrupsiya" element={<Korrupsiya />} />
         <Route path="/bmsmPedagogikKengash" element={<BmsmPedagogikKengash />} />
         <Route path="*" element={<Error />} />
-        <Route path="/davlatRamzlari" element={<DavlatRamzlari />} />
+        <Route path="/DavlatRamzlari" element={<DavlatRamzlari />} />
         <Route path="/taraqqiyotStrategiya" element={<TaraqqiyotStrategiya />} />
         <Route path="/beshTashabbus" element={<BeshTashabbus />} />
         <Route path="/bmsmXodimlari" element={<BmsmXodimlari />} />

@@ -14,52 +14,52 @@ const columns = [
   {
     id: 2,
     title: '2. O‘zbekiston Respublikasining “Та‘lim to‘g‘risida”gi qonuni',
-    file: '/talim_togrisida_qonun',
+    file: '/talimTogrisidaQonun',
   },
   {
     id: 3,
     title: '3. O‘zbekiston Respublikasining “Aholini ish bilan ta’minlash to‘g‘risida”gi qonuni',
-    file: '/aholini_ish_bilan_taminlash',
+    file: '/aholiniIshBilanTaminlash',
   },
   {
     id: 4,
     title: '4. O‘zbekiston Respublikasining “Bola huquqlarining kafolatlari to‘g‘risida”gi qonuni',
-    file: '/bola_huquqlari',
+    file: '/bolaHuquqlari',
   },
   {
     id: 5,
     title: '5. O‘zbekiston Respublikasining “Jismoniy va yuridik shaxslarning murojaatlari to‘g‘risida”gi qonuni',
-    file: '/jismoniy_yuridik_shaxs',
+    file: '/jismoniyYuridikShaxs',
   },
     {
     id: 6,
     title: '6. O‘zbekiston Respublikasining “Kasaba uyushmalari to‘g‘risida”gi qonuni',
-    file: '/kasaba_uyushmasi',
+    file: '/kasabaUyushmasi',
   },
     {
     id: 7,
     title: '7. O‘zbekiston Respublikasining “Korrupsiyaga qarshi kurashish to‘g‘risida”gi qonuni',
-    file: '/korrupsiyaga_qarshi',
+    file: '/korrupsiyagaQarshi',
   },
     {
     id: 8,
     title: '8. O‘zbekiston Respublikasining “Madaniy faoliyat va madaniyat tashkilotlari to‘g‘risida”gi qonuni',
-    file: '/madaniy_faoliyat',
+    file: '/madaniyFaoliyat',
   },
     {
     id: 9,
     title: '9. O‘zbekiston Respublikasining “Mehnatni muhofaza qilish to‘g‘risida”gi qonuni',
-    file: '/mehnat_muhofaza',
+    file: '/mehnatMuhofaza',
   },
     {
     id: 10,
     title: '10. O‘zbekiston Respublikasining “Nogironligi bo‘lgan shaxslarning huquqlari to‘g‘risida”gi qonuni',
-    file: '/nogironligi_b_l_shaxs',
+    file: '/nogironligiBLShaxs',
   },
   {
     id: 11,
     title: '11. O‘zbekiston Respublikasining “Shaxsga doir ma’lumotlar to‘g‘risida”gi qonuni',
-    file: '/shaxsga_doir',
+    file: '/shaxsgaDoir',
   },
   {
     id: 12,
@@ -69,7 +69,7 @@ const columns = [
 ];
 const Kodeks = () => {
   // Add hover state for better interactivity
-  const [setHoveredCard] = useState(null);
+  const [hoveredCard, setHoveredCard] = useState(null);
 
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-br from-gray-50 to-blue-50 font-Montserrat">

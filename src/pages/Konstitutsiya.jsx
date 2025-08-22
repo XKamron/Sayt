@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import Tabs from '../components/Tabs';
 import Header from '../components/Header';
@@ -6,17 +6,18 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
 const Konstitutsiya = () => {
-   const [isMobile, setIsMobile] = useState(() => 
+ const [isMobile, setIsMobile] = useState(() =>
     typeof window !== 'undefined' ? window.innerWidth < 768 : false
   );
-  
- useEffect(() => {
+
+  useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth < 768);
+      // дополнительно проверяем typeof setIsMobile на всякий случай (защита)
+      if (typeof setIsMobile === 'function') {
+        setIsMobile(window.innerWidth < 768);
+      }
     };
-
     handleResize();
-
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
   }, []);

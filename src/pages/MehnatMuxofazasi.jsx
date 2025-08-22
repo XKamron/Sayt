@@ -18,7 +18,7 @@ const documents = [
   {
     id: 1,
     title: "O'zbekiston Respublikasining 'Mehnatni muhofaza qilish to'g'risida'gi qonuni",
-    url: "/mehnatni_muhofaza_qilish"
+    url: "/mehnatniMuhofazaQilish"
   },
   {
     id: 2,

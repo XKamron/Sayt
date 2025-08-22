@@ -1,4 +1,5 @@
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -34,26 +35,26 @@ const Header = () => {
               className="flex flex-wrap justify-center sm:justify-start items-center gap-x-2 sm:gap-x-3 gap-y-1 text-[11px] sm:text-xs md:text-sm"
               data-aos="fade-down"
             >
-              <a 
-                href='davlat_ramzlari' 
+              <Link 
+                to="/DavlatRamzlari" 
                 className="hover:text-sky-300 transition-colors duration-200 whitespace-nowrap px-1 py-0.5 rounded hover:bg-sky-800/50"
               >
                 Davlat ramzlari
-              </a>
+              </Link>
               <span className="text-sky-400 hidden sm:inline-block">•</span>
-              <a 
-                href="taraqqiyot_strategiya" 
+              <Link 
+                to="/taraqqiyotStrategiya" 
                 className="hover:text-sky-300 transition-colors duration-200 whitespace-nowrap px-1 py-0.5 rounded hover:bg-sky-800/50"
               >
                 Taraqqiyot strategiyasi
-              </a>
+              </Link>
               <span className="text-sky-400 hidden sm:inline-block">•</span>
-              <a 
-                href="besh_tashabbus" 
+              <Link 
+                to="/beshTashabbus" 
                 className="hover:text-sky-300 transition-colors duration-200 whitespace-nowrap px-1 py-0.5 rounded hover:bg-sky-800/50"
               >
                 Besh tashabbus
-              </a>
+              </Link>
             </div>
 
             {/* Contact info */}
