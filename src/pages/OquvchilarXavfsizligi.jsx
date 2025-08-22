@@ -84,16 +84,12 @@ const OquvchilarXavfsizligi = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      setActiveSection("section1"); 
-      
       // Update active section based on scroll position
       const sections = document.querySelectorAll('section[id]');
       sections.forEach(section => {
         const sectionTop = section.offsetTop - 120; // чуть больше offset для точности
         const sectionHeight = section.offsetHeight;
-        if (window.scrollY >= sectionTop && window.scrollY < sectionTop + sectionHeight) {
-          setActiveSection(section.id);
-        }
+        // previously setActiveSection logic removed
       });
     };
 
