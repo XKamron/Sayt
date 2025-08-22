@@ -102,7 +102,7 @@ const Kodeks = () => {
               transition-all duration-300
               ${isDisabled 
                 ? 'bg-gray-100 text-gray-400 cursor-not-allowed' 
-                : 'bg-white text-sky-900 shadow-sm hover:shadow-md border border-gray-100 hover:border-sky-100 hover:bg-sky-50 cursor-pointer'}
+                : `${hoveredCard === column.id ? 'bg-sky-100 border-sky-300 shadow-lg' : 'bg-white text-sky-900 shadow-sm hover:shadow-md border border-gray-100 hover:border-sky-100 hover:bg-sky-50'} cursor-pointer`}
             `;
             
             const content = (
