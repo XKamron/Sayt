@@ -48,6 +48,7 @@ import MadaniyatSanatSohasiYenadaRivojlantirish from './pages/Prezidentning farm
 import BmsmXodimlari from './pages/BmsmXodimlari'
 import MalakaTavsiflari from './pages/MalakaTavsiflari'
 import OquvchilarXavfsizligi from './pages/OquvchilarXavfsizligi'
+import MehnatMuhofaza from './pages/MehnatMuhofaza'
 import MehnatMuxofazasi from './pages/MehnatMuxofazasi'
 import MehnatniMuhofazaQilish from './pages/MehnatniMuhofazaQilish'
 import OquvDasturlari from './pages/OquvDasturlari'
@@ -113,6 +114,7 @@ function App() {
         <Route path="/malakaTavsiflari" element={<MalakaTavsiflari />} />
         <Route path="/oquvchilarXavfsizligi" element={<OquvchilarXavfsizligi />} />
         <Route path="/mehnatMuxofazasi" element={<MehnatMuxofazasi />} />
+        <Route path="/mehnatMuhofaza" element={<MehnatMuhofaza />} />
         <Route path="/mehnatniMuhofazaQilish" element={<MehnatniMuhofazaQilish />} />
         <Route path="/oquvDasturlari" element={<OquvDasturlari />} />
         <Route path="/Tanlovlar" element={<Tanlovlar />} />

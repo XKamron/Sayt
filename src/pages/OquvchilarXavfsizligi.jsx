@@ -79,16 +79,16 @@ const SafetySection = ({ title, items, id }) => (
 
 
 const OquvchilarXavfsizligi = () => {
-  const [isScrolled] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
   // removed activeSection state as it was unused
 
   useEffect(() => {
     const handleScroll = () => {
-      // Update active section based on scroll position
-      const sections = document.querySelectorAll('section[id]');
-      sections.forEach(section => {
-        // previously setActiveSection logic removed
-      });
+      if (window.scrollY > 100) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
     };
 
 
@@ -181,19 +181,19 @@ const OquvchilarXavfsizligi = () => {
               </h2>
             </div>
             
-            <div className="flex">
-              <div>
-                <p>- Zudlik bilan yong'in xavfsizligi xizmatiga xabar ber;</p>
-                <p>- Odamlarni va hayvonlarni xavfsiz joyga olib chiq;</p>
-                <p>- Оlovni suv, qum, o't o'chirgich va shu kabilar bilan o'chir;</p>
-                <p>- Yong'in sodir bo'lgan xonaning eshigini zarurat bo'lmasa ochma, chunki ochiq eshik yong'inni yanada kuchaytiradi.</p>
-              </div>
-              <div>
-                <p>- Elvizak bo'lmasligi uchun boshqa xonalardagi oynalarni, eshiklarni yop;</p>
-                <p>- Yetib kelgan o't o'chiruvchilarning barcha buyruqlarini bajar, ularga qo'lingizdan kelgunicha yordam ber.</p>
-                <p>Ma'muriyatning ruxsatisiz bolalar yong'in o'chirishda va mol-mulkni qutqarishda ishtirok etmaydi.</p>
-              </div>
-            </div>
+            <div className="flex flex-col md:flex-row gap-6 md:gap-10 justify-center items-stretch">
+  <div className="flex-1 bg-white rounded-lg p-4 md:p-6 shadow-sm mb-4 md:mb-0">
+    <p>- Zudlik bilan yong'in xavfsizligi xizmatiga xabar ber;</p>
+    <p>- Odamlarni va hayvonlarni xavfsiz joyga olib chiq;</p>
+    <p>- Оlovni suv, qum, o't o'chirgich va shu kabilar bilan o'chir;</p>
+    <p>- Yong'in sodir bo'lgan xonaning eshigini zarurat bo'lmasa ochma, chunki ochiq eshik yong'inni yanada kuchaytiradi.</p>
+  </div>
+  <div className="flex-1 bg-white rounded-lg p-4 md:p-6 shadow-sm">
+    <p>- Elvizak bo'lmasligi uchun boshqa xonalardagi oynalarni, eshiklarni yop;</p>
+    <p>- Yetib kelgan o't o'chiruvchilarning barcha buyruqlarini bajar, ularga qo'lingizdan kelgunicha yordam ber.</p>
+    <p>Ma'muriyatning ruxsatisiz bolalar yong'in o'chirishda va mol-mulkni qutqarishda ishtirok etmaydi.</p>
+  </div>
+</div>
           </section>
           <section className="mt-16">
             <div className="text-center mb-10">
@@ -202,64 +202,42 @@ const OquvchilarXavfsizligi = () => {
               </h2>
             </div>
             
-            <div className='flex items-center'>
-              <div className=''>
-                <div className='flex items-center'>
-                  <img src={ognetush_1_1} alt="" />
-                  <p>
-                  Yong'in o'chirayotgan modda oqimi uzunligidan oshmaydigan masofada olovga yaqinlash (ochiq joyda shamolga ro'para tomondan).
-                  </p>
-                </div>
-                <div className='flex items-center'>
-                  <img src={ognetush_1_2} alt="" />
-                  <p>
-                  Tekis yuzada yong'in o'chirayotgan modda oqimini yong'inning asosiy qismiga yo'naltir.
-                  </p>
-                </div>
-                <div className='flex items-center'>
-                  <img src={ognetush_1_3} alt="" />
-                  <p>
-                  Yong'in chuqurlashgan joyda yong'in o'chirayotgan modda oqimini yong'inning yuqori qismidan yo'naltir.
-                  </p>
-                </div>
-              </div>
-              <div className=''>
-                <div className='flex items-center'>
-                  <img src={ognetush_1_4} alt="" />
-                  <p>
-                  Devorda (konstruksiyada) yong'in o'chirayotgan modda oqimini pastdan tepaga harakat qilgan holda yong'inning yuqori qismidan zigzag shaklida yo'naltir.
-                  </p>
-                </div>
-                <div className='flex items-center'>
-                  <img src={ognetush_1_5} alt="" />
-                  <p>
-                  Zarur bo'lganda yong'inni bir necha o't o'chirgich bilan o'chir.
-                  </p>
-                </div>
-                <div className='flex items-center'>
-                  <img src={ognetush_1_6} alt="" />
-                  <p>
-                  Yong'in o'chirgandan so'ng yong'in qaytadan sodir bo'lmasligini nazorat qil.
-                  </p>
-                </div>
-              </div>
-            </div>
+            <div className="flex flex-col md:flex-row gap-6 md:gap-10 items-stretch">
+  <div className="flex-1 space-y-4">
+    <div className="flex flex-col sm:flex-row items-center gap-3 bg-white rounded-lg p-3 shadow-sm">
+      <img src={ognetush_1_1} alt="O't o'chirgich 1" className="w-20 h-20 object-contain" />
+      <p className="text-sm">Yong'in o'chirayotgan modda oqimi uzunligidan oshmaydigan masofada olovga yaqinlash (ochiq joyda shamolga ro'para tomondan).</p>
+    </div>
+    <div className="flex flex-col sm:flex-row items-center gap-3 bg-white rounded-lg p-3 shadow-sm">
+      <img src={ognetush_1_2} alt="O't o'chirgich 2" className="w-20 h-20 object-contain" />
+      <p className="text-sm">Tekis yuzada yong'in o'chirayotgan modda oqimini yong'inning asosiy qismiga yo'naltir.</p>
+    </div>
+    <div className="flex flex-col sm:flex-row items-center gap-3 bg-white rounded-lg p-3 shadow-sm">
+      <img src={ognetush_1_3} alt="O't o'chirgich 3" className="w-20 h-20 object-contain" />
+      <p className="text-sm">Yong'in chuqurlashgan joyda yong'in o'chirayotgan modda oqimini yong'inning yuqori qismidan yo'naltir.</p>
+    </div>
+  </div>
+  <div className="flex-1 space-y-4">
+    <div className="flex flex-col sm:flex-row items-center gap-3 bg-white rounded-lg p-3 shadow-sm">
+      <img src={ognetush_1_4} alt="O't o'chirgich 4" className="w-20 h-20 object-contain" />
+      <p className="text-sm">Devorda (konstruksiyada) yong'in o'chirayotgan modda oqimini pastdan tepaga harakat qilgan holda yong'inning yuqori qismidan zigzag shaklida yo'naltir.</p>
+    </div>
+    <div className="flex flex-col sm:flex-row items-center gap-3 bg-white rounded-lg p-3 shadow-sm">
+      <img src={ognetush_1_5} alt="O't o'chirgich 5" className="w-20 h-20 object-contain" />
+      <p className="text-sm">Zarur bo'lganda yong'inni bir necha o't o'chirgich bilan o'chir.</p>
+    </div>
+    <div className="flex flex-col sm:flex-row items-center gap-3 bg-white rounded-lg p-3 shadow-sm">
+      <img src={ognetush_1_6} alt="O't o'chirgich 6" className="w-20 h-20 object-contain" />
+      <p className="text-sm">Yong'in o'chirgandan so'ng yong'in qaytadan sodir bo'lmasligini nazorat qil.</p>
+    </div>
+  </div>
+</div>
           </section>
         </div>
       </main>
 
       <Footer />
       
-      {/* Scroll to top button */}
-      <button
-        onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-        className={`fixed bottom-6 right-6 bg-red-500 text-white p-3 rounded-full shadow-lg transition-all duration-300 transform hover:scale-110 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-50 ${isScrolled ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
-        aria-label="Yuqoriga qaytish"
-      >
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 10l7-7m0 0l7 7m-7-7v18" />
-        </svg>
-      </button>
 
       <style jsx>{`
         .hide-scrollbar::-webkit-scrollbar {
