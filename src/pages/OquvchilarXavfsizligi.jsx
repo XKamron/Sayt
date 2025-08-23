@@ -79,7 +79,6 @@ const SafetySection = ({ title, items, id }) => (
 
 
 const OquvchilarXavfsizligi = () => {
-  const [isScrolled, setIsScrolled] = useState(false);
   // removed activeSection state as it was unused
 
   useEffect(() => {
