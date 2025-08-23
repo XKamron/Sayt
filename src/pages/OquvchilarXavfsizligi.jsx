@@ -81,22 +81,6 @@ const SafetySection = ({ title, items, id }) => (
 const OquvchilarXavfsizligi = () => {
   // removed activeSection state as it was unused
 
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 100) {
-        setIsScrolled(true);
-      } else {
-        setIsScrolled(false);
-      }
-    };
-
-
-       handleScroll();
-
-
-  window.addEventListener("scroll", handleScroll);
-  return () => window.removeEventListener("scroll", handleScroll);
-}, []);// setIsScrolled/setActiveSection не нужны в зависимостях — они стабильные
 
 
 
